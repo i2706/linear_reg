@@ -20,7 +20,7 @@ def predict():
 
     output = round(prediction[0], 2)
 
-    return render_template('index.html', prediction_text='Employee Salary for given age: {} years is Rs. {}'.format( int_features, output))
+    return render_template('new.html', prediction_text='Employee Salary for given age: {} years is Rs. {}'.format( int_features, output))
 
 
 if __name__ == "__main__":
